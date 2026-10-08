@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateway Public High School</title>
+    <!-- Tailwind CSS for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+        }
+        .quick-link-box {
+            transition: all 0.3s ease;
+        }
+        .quick-link-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-700 bg-gray-50">
+
+    <!-- Top Bar -->
+    <div class="bg-blue-900 text-white text-sm py-2 px-4 md:px-12 flex justify-between items-center">
+        <div>
+            <i class="fas fa-phone-alt mr-2"></i> Parent Helpline: +92 370-7652226 | +92 300-4272373
+        </div>
+        <div class="hidden md:flex space-x-4">
+            <a href="#" class="hover:text-yellow-400"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="hover:text-yellow-400"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="hover:text-yellow-400"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <!-- Using your provided logo -->
+                <img src="WhatsApp Image 2026-10-06 at 9.53.58 PM.jpeg" alt="Gateway Public High School Logo" class="h-42 w-32 object-cover">
+                <span class="text-8xl md:text-2xl font-bold text-blue-900 uppercase tracking-wide">Gate way Public<br><span class="text-sm md:text-xl">High School</span></span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex space-x-6 text-gray-800 font-semibold items-center">
+                <a href="#" class="text-blue-600 hover:text-blue-800 border-b-2 border-blue-600 pb-1">Home</a>
+                <a href="#" class="hover:text-blue-600 transition">About</a>
+                <a href="#" class="hover:text-blue-600 transition">Academics</a>
+                <a href="#" class="hover:text-blue-600 transition">Calendar</a>
+                <a href="#" class="hover:text-blue-600 transition">Portal</a>
+                <a href="#" class="bg-blue-900 text-white px-5 py-2 rounded-md hover:bg-blue-800 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section h-[450px] flex flex-col items-center justify-center text-center text-white px-4 relative">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4 drop-shadow-lg"> Welcome to Gate way Public High School .</h1>
+        <p class="text-lg md:text-xl mb-8 font-light max-w-2xl drop-shadow-md">Innovative Initiatives to enhance 21st Century Skills</p>
+        <a href="#" class="bg-yellow-500 text-blue-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition shadow-lg">Discover More</a>
+    </header>
+
+    <!-- Quick Links Bar (Overlapping Hero) -->
+    <div class="container mx-auto -mt-12 relative z-10 px-4">
+        <div class="bg-white rounded-lg shadow-lg flex flex-wrap justify-center divide-x divide-gray-200 py-4">
+            <a href="#" class="flex flex-col items-center px-4 md:px-8 py-2 hover:text-blue-600 transition">
+                <i class="fas fa-info-circle text-2xl text-blue-900 mb-2"></i>
+                <span class="text-sm font-semibold">About Us</span>
+            </a>
+            <a href="#" class="flex flex-col items-center px-4 md:px-8 py-2 hover:text-blue-600 transition">
+                <i class="fas fa-user-graduate text-2xl text-blue-900 mb-2"></i>
+                <span class="text-sm font-semibold">Admissions</span>
+            </a>
+            <a href="#" class="flex flex-col items-center px-4 md:px-8 py-2 hover:text-blue-600 transition">
+                <i class="far fa-calendar-alt text-2xl text-blue-900 mb-2"></i>
+                <span class="text-sm font-semibold">Calendar</span>
+            </a>
+            <a href="#" class="flex flex-col items-center px-4 md:px-8 py-2 hover:text-blue-600 transition">
+                <i class="fas fa-users text-2xl text-blue-900 mb-2"></i>
+                <span class="text-sm font-semibold">Parents Corner</span>
+            </a>
+            <a href="#" class="flex flex-col items-center px-4 md:px-8 py-2 hover:text-blue-600 transition">
+                <i class="fas fa-download text-2xl text-blue-900 mb-2"></i>
+                <span class="text-sm font-semibold">Downloads</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Core Values & Info Cards -->
+    <section class="py-16 bg-gray-50 container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-blue-900">Why choose us</h2>
+            <h3 class="text-xl text-gray-600 mt-2">Our Core Values</h3>
+            <p class="text-gray-500 mt-4 max-w-2xl mx-auto">We focus on scholastic development, personal growth, and ethical enrichment.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md quick-link-box border-t-4 border-blue-900">
+                <h4 class="text-lg font-bold text-blue-900 mb-3">Admissions</h4>
+                <p class="text-sm text-gray-600 mb-4">A complete guide: levels of education, age range, and admission criteria.</p>
+                <a href="#" class="text-blue-600 font-semibold text-sm hover:underline">Read More &rarr;</a>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md quick-link-box border-t-4 border-yellow-500">
+                <h4 class="text-lg font-bold text-blue-900 mb-3">Parent Corner</h4>
+                <p class="text-sm text-gray-600 mb-4">Includes all necessary information for parents regarding our education system.</p>
+                <a href="#" class="text-blue-600 font-semibold text-sm hover:underline">Read More &rarr;</a>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-md quick-link-box border-t-4 border-blue-900">
+                <h4 class="text-lg font-bold text-blue-900 mb-3">Prospectus</h4>
+                <p class="text-sm text-gray-600 mb-4">Combines all required information such as our values, curriculum, and facilities.</p>
+                <a href="#" class="text-blue-600 font-semibold text-sm hover:underline">Read More &rarr;</a>
+            </div>
+            <!-- Card 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-md quick-link-box border-t-4 border-yellow-500">
+                <h4 class="text-lg font-bold text-blue-900 mb-3">Downloads</h4>
+                <p class="text-sm text-gray-600 mb-4">Access important academic files, newsletters, and required school forms directly.</p>
+                <a href="#" class="text-blue-600 font-semibold text-sm hover:underline">Read More &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovative Initiatives -->
+    <section class="py-16 bg-white border-t border-gray-200">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-blue-900">Innovative Initiatives</h2>
+                <p class="text-gray-500 mt-2">@ Gateway Public High School</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-blue-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-project-diagram text-3xl text-blue-900"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Project Based Learning</h4>
+                    <p class="text-sm text-gray-600">Giving teachers and students the opportunity to develop knowledge through engaging projects.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-running text-3xl text-blue-900"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Activity Based Learning</h4>
+                    <p class="text-sm text-gray-600">Learning by performing tasks. Motivates students to participate via practical activities.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-robot text-3xl text-blue-900"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">Robotics & AI</h4>
+                    <p class="text-sm text-gray-600">Understand the basics of coding, design, and create simple models with movements.</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-laptop-code text-3xl text-blue-900"></i>
+                    </div>
+                    <h4 class="font-bold text-lg mb-2">eLearning</h4>
+                    <p class="text-sm text-gray-600">Wonderful educational resources including self-assessments and question banks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Levels -->
+    <section class="py-16 bg-blue-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Education Levels</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pre-School -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="Untitled design.png">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-blue-900 mb-2">Pre-School</h4>
+                        <p class="text-gray-600 text-sm mb-4">We encourage children to experience the joy of learning from an early age in a non-competitive environment.</p>
+                    </div>
+                </div>
+                <!-- Primary -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="Untitled design (1).png">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-blue-900 mb-2">Primary & Elementary</h4>
+                        <p class="text-gray-600 text-sm mb-4">Aiming to ensure the development of children's social, cognitive, cultural, emotional, and physical skills.</p>
+                    </div>
+                </div>
+                <!-- Secondary -->
+                <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                    <img src="Untitled design (2).png">
+                    <div class="p-6">
+                        <h4 class="text-xl font-bold text-blue-900 mb-2">Secondary</h4>
+                        <p class="text-gray-600 text-sm mb-4">Laying the foundation for academic success while maintaining a balance between local and global standards.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 border-t-4 border-yellow-500">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <div class="flex items-center space-x-3 mb-6">
+                    <img src="WhatsApp Image 2026-10-06 at 9.53.58 PM.jpeg" alt="Logo" class="h-12 w-12 object-cover rounded-full bg-white p-1">
+                    <span class="text-lg font-bold text-white">Gateway Public<br>High School</span>
+                </div>
+                <p class="text-sm mb-4">To prepare students with the promise of enhancing their intellectual, physical, social, emotional, spiritual, and artistic growth.</p>
+            </div>
+            
+            <div>
+                <h4 class="text-white text-lg font-bold mb-4">Our Address</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><i class="fas fa-map-marker-alt mr-2 text-yellow-500"></i> Gateway public high school, Main bazzar Rehman Pura, Lahore, Punjab, Pakistan</li>
+                    <li><i class="fas fa-phone mr-2 text-yellow-500"></i> +92 300-7995900</li>
+                    <li><i class="fas fa-envelope mr-2 text-yellow-500"></i> info@gatewaypublic.edu.pk</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-white text-lg font-bold mb-4">Resources</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-yellow-500 transition">FAQs</a></li>
+                    <li><a href="#" class="hover:text-yellow-500 transition">Careers</a></li>
+                    <li><a href="#" class="hover:text-yellow-500 transition">Campus Portal</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="text-white text-lg font-bold mb-4">Newsletter</h4>
+                <p class="text-sm mb-4">Subscribe to our Newsletter right now to be updated.</p>
+                <form class="flex">
+                    <input type="email" placeholder="Email Address" class="px-4 py-2 w-full rounded-l-md focus:outline-none text-gray-800">
+                    <button type="submit" class="bg-blue-600 px-4 py-2 rounded-r-md hover:bg-blue-700 transition"><i class="fas fa-paper-plane text-white"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="container mx-auto px-4 mt-12 pt-8 border-t border-gray-700 text-sm text-center">
+            <p>&copy; 2026 Gateway Public High School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
